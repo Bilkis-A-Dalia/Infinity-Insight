@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-uj78c+3_&re92!8%38h@vbdj#@5f_h3+^4c=h)t#w54418(---
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://infinity-insight.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
